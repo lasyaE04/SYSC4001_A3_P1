@@ -7,16 +7,6 @@
 
 #include<interrupts_lasya_nil.hpp>
 
-// template code
-void FCFS(std::vector<PCB> &ready_queue) {
-    std::sort( 
-                ready_queue.begin(),
-                ready_queue.end(),
-                []( const PCB &first, const PCB &second ){
-                    return (first.arrival_time > second.arrival_time); 
-                } 
-            );
-}
 
 //RR scheduler
 void RR(std::vector<PCB> &ready_queue) {
