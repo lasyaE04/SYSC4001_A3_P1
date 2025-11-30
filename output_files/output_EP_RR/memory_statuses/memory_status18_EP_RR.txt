@@ -10,7 +10,8 @@ Memory Status at Time 0
 |               6 |              2 |             FREE |   NONE|
 +-------------------------------------------------------------+
 total memory used at 0 : 8
-total free memory at 0 : 8
+total free memory at 0 : 92
+total available free memory at 0 : 92
 +-------------------------------------------------------------+
 +-------------------------------------------------------------+
 Memory Status at Time 0
@@ -24,24 +25,26 @@ Memory Status at Time 0
 |               6 |              2 |             FREE |   NONE|
 +-------------------------------------------------------------+
 total memory used at 0 : 18
-total free memory at 0 : 18
+total free memory at 0 : 82
+total available free memory at 0 : 82
 +-------------------------------------------------------------+
 +-------------------------------------------------------------+
-Memory Status at Time 250
+Memory Status at Time 215
 |partition number | partition size | partition status |  PID |
 +-------------------------------------------------------------+
 |               1 |             40 |             FREE |   NONE|
 |               2 |             25 |             FREE |   NONE|
 |               3 |             15 |             FREE |   NONE|
-|               4 |             10 |             FREE |   NONE|
-|               5 |              8 |             BUSY |      1|
+|               4 |             10 |             BUSY |      2|
+|               5 |              8 |             FREE |   NONE|
 |               6 |              2 |             FREE |   NONE|
 +-------------------------------------------------------------+
-total memory used at 250 : 8
-total free memory at 250 : 8
+total memory used at 215 : 10
+total free memory at 215 : 90
+total available free memory at 215 : 90
 +-------------------------------------------------------------+
 +-------------------------------------------------------------+
-Memory Status at Time 410
+Memory Status at Time 403
 |partition number | partition size | partition status |  PID |
 +-------------------------------------------------------------+
 |               1 |             40 |             FREE |   NONE|
@@ -51,6 +54,7 @@ Memory Status at Time 410
 |               5 |              8 |             FREE |   NONE|
 |               6 |              2 |             FREE |   NONE|
 +-------------------------------------------------------------+
-total memory used at 410 : 0
-total free memory at 410 : 0
+total memory used at 403 : 0
+total free memory at 403 : 100
+total available free memory at 403 : 100
 +-------------------------------------------------------------+

@@ -27,6 +27,7 @@ std::string print_mem_status(unsigned int current_time){
 
     unsigned int total_used = 0;
     unsigned int total_free = 0;
+    unsigned int avail_free = 0;
 
 
     // Print top border
@@ -59,6 +60,7 @@ std::string print_mem_status(unsigned int current_time){
                   << std::setw(7) << "NONE"
                 << std::setw(2) << "|\n";
             total_free += memory_paritions[i].size;
+            avail_free += memory_paritions[i].size;
         }
         else {
             buffer << std::setfill(' ') << std::setw(17) << "BUSY"
@@ -72,14 +74,15 @@ std::string print_mem_status(unsigned int current_time){
     buffer << "+" << std::setfill('-') << std::setw(tableWidth) << "+" << std::endl;
 
     buffer << "total memory used at " << current_time << " : " << total_used<< std::endl;
-    buffer << "total free memory at " << current_time << " : " << total_used<< std::endl;
+    buffer << "total free memory at " << current_time << " : " << total_free<< std::endl;
+    buffer << "total available free memory at " << current_time << " : " << avail_free<< std::endl;
     // Print bottom border
     buffer << "+" << std::setfill('-') << std::setw(tableWidth) << "+" << std::endl;
 
     return buffer.str();
 }
 
-std::tuple<std::string /* add std::string for bonus mark */ > run_simulation(std::vector<PCB> list_processes) {
+std::tuple<std::string, std::string> run_simulation(std::vector<PCB> list_processes) {
 
     std::vector<PCB> ready_queue;   //The ready queue of processes
     std::vector<PCB> wait_queue;    //The wait queue of processes
@@ -255,7 +258,7 @@ std::tuple<std::string /* add std::string for bonus mark */ > run_simulation(std
     //Close the output table
     execution_status += print_exec_footer();
 
-    return std::make_tuple(execution_status);
+    return std::make_tuple(execution_status, mem_status);
 }
 
 
@@ -291,9 +294,10 @@ int main(int argc, char** argv) {
     input_file.close();
 
     //With the list of processes, run the simulation
-    auto [exec] = run_simulation(list_process);
+    auto [exec, mem] = run_simulation(list_process);
 
     write_output(exec, "execution.txt");
+    write_output(mem, "memory_status.txt");
 
     return 0;
 }

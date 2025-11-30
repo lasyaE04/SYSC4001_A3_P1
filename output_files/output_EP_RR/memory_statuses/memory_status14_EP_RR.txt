@@ -10,7 +10,8 @@ Memory Status at Time 0
 |               6 |              2 |             BUSY |      5|
 +-------------------------------------------------------------+
 total memory used at 0 : 2
-total free memory at 0 : 2
+total free memory at 0 : 98
+total available free memory at 0 : 98
 +-------------------------------------------------------------+
 +-------------------------------------------------------------+
 Memory Status at Time 0
@@ -24,10 +25,11 @@ Memory Status at Time 0
 |               6 |              2 |             BUSY |      5|
 +-------------------------------------------------------------+
 total memory used at 0 : 10
-total free memory at 0 : 10
+total free memory at 0 : 90
+total available free memory at 0 : 90
 +-------------------------------------------------------------+
 +-------------------------------------------------------------+
-Memory Status at Time 30
+Memory Status at Time 22
 |partition number | partition size | partition status |  PID |
 +-------------------------------------------------------------+
 |               1 |             40 |             FREE |   NONE|
@@ -37,11 +39,12 @@ Memory Status at Time 30
 |               5 |              8 |             FREE |   NONE|
 |               6 |              2 |             BUSY |      5|
 +-------------------------------------------------------------+
-total memory used at 30 : 2
-total free memory at 30 : 2
+total memory used at 22 : 2
+total free memory at 22 : 98
+total available free memory at 22 : 98
 +-------------------------------------------------------------+
 +-------------------------------------------------------------+
-Memory Status at Time 40
+Memory Status at Time 43
 |partition number | partition size | partition status |  PID |
 +-------------------------------------------------------------+
 |               1 |             40 |             FREE |   NONE|
@@ -51,6 +54,7 @@ Memory Status at Time 40
 |               5 |              8 |             FREE |   NONE|
 |               6 |              2 |             FREE |   NONE|
 +-------------------------------------------------------------+
-total memory used at 40 : 0
-total free memory at 40 : 0
+total memory used at 43 : 0
+total free memory at 43 : 100
+total available free memory at 43 : 100
 +-------------------------------------------------------------+

@@ -10,7 +10,8 @@ Memory Status at Time 0
 |               6 |              2 |             BUSY |     10|
 +-------------------------------------------------------------+
 total memory used at 0 : 2
-total free memory at 0 : 2
+total free memory at 0 : 98
+total available free memory at 0 : 98
 +-------------------------------------------------------------+
 +-------------------------------------------------------------+
 Memory Status at Time 3
@@ -24,7 +25,8 @@ Memory Status at Time 3
 |               6 |              2 |             BUSY |     10|
 +-------------------------------------------------------------+
 total memory used at 3 : 10
-total free memory at 3 : 10
+total free memory at 3 : 90
+total available free memory at 3 : 90
 +-------------------------------------------------------------+
 +-------------------------------------------------------------+
 Memory Status at Time 8
@@ -38,7 +40,8 @@ Memory Status at Time 8
 |               6 |              2 |             BUSY |     10|
 +-------------------------------------------------------------+
 total memory used at 8 : 2
-total free memory at 8 : 2
+total free memory at 8 : 98
+total available free memory at 8 : 98
 +-------------------------------------------------------------+
 +-------------------------------------------------------------+
 Memory Status at Time 14
@@ -52,5 +55,6 @@ Memory Status at Time 14
 |               6 |              2 |             FREE |   NONE|
 +-------------------------------------------------------------+
 total memory used at 14 : 0
-total free memory at 14 : 0
+total free memory at 14 : 100
+total available free memory at 14 : 100
 +-------------------------------------------------------------+

@@ -26,6 +26,7 @@ std::string print_mem_status(unsigned int current_time){
 
     unsigned int total_used = 0;
     unsigned int total_free = 0;
+    unsigned int avail_free = 0;
 
 
     // Print top border
@@ -58,6 +59,7 @@ std::string print_mem_status(unsigned int current_time){
                   << std::setw(7) << "NONE"
                 << std::setw(2) << "|\n";
             total_free += memory_paritions[i].size;
+            avail_free += memory_paritions[i].size;
         }
         else {
             buffer << std::setfill(' ') << std::setw(17) << "BUSY"
@@ -71,7 +73,8 @@ std::string print_mem_status(unsigned int current_time){
     buffer << "+" << std::setfill('-') << std::setw(tableWidth) << "+" << std::endl;
 
     buffer << "total memory used at " << current_time << " : " << total_used<< std::endl;
-    buffer << "total free memory at " << current_time << " : " << total_used<< std::endl;
+    buffer << "total free memory at " << current_time << " : " << total_free<< std::endl;
+    buffer << "total available free memory at " << current_time << " : " << avail_free<< std::endl;
     // Print bottom border
     buffer << "+" << std::setfill('-') << std::setw(tableWidth) << "+" << std::endl;
 

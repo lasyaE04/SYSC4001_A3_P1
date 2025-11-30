@@ -10,7 +10,8 @@ Memory Status at Time 0
 |               6 |              2 |             FREE |   NONE|
 +-------------------------------------------------------------+
 total memory used at 0 : 8
-total free memory at 0 : 8
+total free memory at 0 : 92
+total available free memory at 0 : 92
 +-------------------------------------------------------------+
 +-------------------------------------------------------------+
 Memory Status at Time 0
@@ -24,7 +25,8 @@ Memory Status at Time 0
 |               6 |              2 |             FREE |   NONE|
 +-------------------------------------------------------------+
 total memory used at 0 : 18
-total free memory at 0 : 18
+total free memory at 0 : 82
+total available free memory at 0 : 82
 +-------------------------------------------------------------+
 +-------------------------------------------------------------+
 Memory Status at Time 0
@@ -38,7 +40,8 @@ Memory Status at Time 0
 |               6 |              2 |             FREE |   NONE|
 +-------------------------------------------------------------+
 total memory used at 0 : 33
-total free memory at 0 : 33
+total free memory at 0 : 67
+total available free memory at 0 : 67
 +-------------------------------------------------------------+
 +-------------------------------------------------------------+
 Memory Status at Time 0
@@ -52,7 +55,8 @@ Memory Status at Time 0
 |               6 |              2 |             FREE |   NONE|
 +-------------------------------------------------------------+
 total memory used at 0 : 58
-total free memory at 0 : 58
+total free memory at 0 : 42
+total available free memory at 0 : 42
 +-------------------------------------------------------------+
 +-------------------------------------------------------------+
 Memory Status at Time 850
@@ -66,7 +70,8 @@ Memory Status at Time 850
 |               6 |              2 |             FREE |   NONE|
 +-------------------------------------------------------------+
 total memory used at 850 : 33
-total free memory at 850 : 33
+total free memory at 850 : 67
+total available free memory at 850 : 67
 +-------------------------------------------------------------+
 +-------------------------------------------------------------+
 Memory Status at Time 900
@@ -80,7 +85,8 @@ Memory Status at Time 900
 |               6 |              2 |             FREE |   NONE|
 +-------------------------------------------------------------+
 total memory used at 900 : 18
-total free memory at 900 : 18
+total free memory at 900 : 82
+total available free memory at 900 : 82
 +-------------------------------------------------------------+
 +-------------------------------------------------------------+
 Memory Status at Time 950
@@ -94,7 +100,8 @@ Memory Status at Time 950
 |               6 |              2 |             FREE |   NONE|
 +-------------------------------------------------------------+
 total memory used at 950 : 8
-total free memory at 950 : 8
+total free memory at 950 : 92
+total available free memory at 950 : 92
 +-------------------------------------------------------------+
 +-------------------------------------------------------------+
 Memory Status at Time 1000
@@ -108,5 +115,6 @@ Memory Status at Time 1000
 |               6 |              2 |             FREE |   NONE|
 +-------------------------------------------------------------+
 total memory used at 1000 : 0
-total free memory at 1000 : 0
+total free memory at 1000 : 100
+total available free memory at 1000 : 100
 +-------------------------------------------------------------+

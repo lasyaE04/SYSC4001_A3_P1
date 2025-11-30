@@ -10,7 +10,8 @@ Memory Status at Time 0
 |               6 |              2 |             FREE |   NONE|
 +-------------------------------------------------------------+
 total memory used at 0 : 8
-total free memory at 0 : 8
+total free memory at 0 : 92
+total available free memory at 0 : 92
 +-------------------------------------------------------------+
 +-------------------------------------------------------------+
 Memory Status at Time 30
@@ -24,7 +25,8 @@ Memory Status at Time 30
 |               6 |              2 |             FREE |   NONE|
 +-------------------------------------------------------------+
 total memory used at 30 : 18
-total free memory at 30 : 18
+total free memory at 30 : 82
+total available free memory at 30 : 82
 +-------------------------------------------------------------+
 +-------------------------------------------------------------+
 Memory Status at Time 60
@@ -38,7 +40,8 @@ Memory Status at Time 60
 |               6 |              2 |             BUSY |      2|
 +-------------------------------------------------------------+
 total memory used at 60 : 20
-total free memory at 60 : 20
+total free memory at 60 : 80
+total available free memory at 60 : 80
 +-------------------------------------------------------------+
 +-------------------------------------------------------------+
 Memory Status at Time 90
@@ -52,7 +55,8 @@ Memory Status at Time 90
 |               6 |              2 |             BUSY |      2|
 +-------------------------------------------------------------+
 total memory used at 90 : 35
-total free memory at 90 : 35
+total free memory at 90 : 65
+total available free memory at 90 : 65
 +-------------------------------------------------------------+
 +-------------------------------------------------------------+
 Memory Status at Time 200
@@ -66,7 +70,8 @@ Memory Status at Time 200
 |               6 |              2 |             BUSY |      2|
 +-------------------------------------------------------------+
 total memory used at 200 : 27
-total free memory at 200 : 27
+total free memory at 200 : 73
+total available free memory at 200 : 73
 +-------------------------------------------------------------+
 +-------------------------------------------------------------+
 Memory Status at Time 350
@@ -80,7 +85,8 @@ Memory Status at Time 350
 |               6 |              2 |             BUSY |      2|
 +-------------------------------------------------------------+
 total memory used at 350 : 17
-total free memory at 350 : 17
+total free memory at 350 : 83
+total available free memory at 350 : 83
 +-------------------------------------------------------------+
 +-------------------------------------------------------------+
 Memory Status at Time 450
@@ -94,7 +100,8 @@ Memory Status at Time 450
 |               6 |              2 |             FREE |   NONE|
 +-------------------------------------------------------------+
 total memory used at 450 : 15
-total free memory at 450 : 15
+total free memory at 450 : 85
+total available free memory at 450 : 85
 +-------------------------------------------------------------+
 +-------------------------------------------------------------+
 Memory Status at Time 570
@@ -108,5 +115,6 @@ Memory Status at Time 570
 |               6 |              2 |             FREE |   NONE|
 +-------------------------------------------------------------+
 total memory used at 570 : 0
-total free memory at 570 : 0
+total free memory at 570 : 100
+total available free memory at 570 : 100
 +-------------------------------------------------------------+

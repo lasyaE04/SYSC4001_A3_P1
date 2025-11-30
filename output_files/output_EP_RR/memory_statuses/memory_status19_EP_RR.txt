@@ -10,7 +10,8 @@ Memory Status at Time 0
 |               6 |              2 |             FREE |   NONE|
 +-------------------------------------------------------------+
 total memory used at 0 : 8
-total free memory at 0 : 8
+total free memory at 0 : 92
+total available free memory at 0 : 92
 +-------------------------------------------------------------+
 +-------------------------------------------------------------+
 Memory Status at Time 100
@@ -24,7 +25,8 @@ Memory Status at Time 100
 |               6 |              2 |             FREE |   NONE|
 +-------------------------------------------------------------+
 total memory used at 100 : 18
-total free memory at 100 : 18
+total free memory at 100 : 82
+total available free memory at 100 : 82
 +-------------------------------------------------------------+
 +-------------------------------------------------------------+
 Memory Status at Time 200
@@ -38,7 +40,23 @@ Memory Status at Time 200
 |               6 |              2 |             FREE |   NONE|
 +-------------------------------------------------------------+
 total memory used at 200 : 33
-total free memory at 200 : 33
+total free memory at 200 : 67
+total available free memory at 200 : 67
++-------------------------------------------------------------+
++-------------------------------------------------------------+
+Memory Status at Time 200
+|partition number | partition size | partition status |  PID |
++-------------------------------------------------------------+
+|               1 |             40 |             FREE |   NONE|
+|               2 |             25 |             FREE |   NONE|
+|               3 |             15 |             BUSY |      5|
+|               4 |             10 |             FREE |   NONE|
+|               5 |              8 |             BUSY |      9|
+|               6 |              2 |             FREE |   NONE|
++-------------------------------------------------------------+
+total memory used at 200 : 23
+total free memory at 200 : 77
+total available free memory at 200 : 77
 +-------------------------------------------------------------+
 +-------------------------------------------------------------+
 Memory Status at Time 300
@@ -46,30 +64,17 @@ Memory Status at Time 300
 +-------------------------------------------------------------+
 |               1 |             40 |             FREE |   NONE|
 |               2 |             25 |             FREE |   NONE|
-|               3 |             15 |             BUSY |      5|
-|               4 |             10 |             BUSY |      2|
-|               5 |              8 |             FREE |   NONE|
-|               6 |              2 |             FREE |   NONE|
-+-------------------------------------------------------------+
-total memory used at 300 : 25
-total free memory at 300 : 25
-+-------------------------------------------------------------+
-+-------------------------------------------------------------+
-Memory Status at Time 400
-|partition number | partition size | partition status |  PID |
-+-------------------------------------------------------------+
-|               1 |             40 |             FREE |   NONE|
-|               2 |             25 |             FREE |   NONE|
-|               3 |             15 |             BUSY |      5|
+|               3 |             15 |             FREE |   NONE|
 |               4 |             10 |             FREE |   NONE|
-|               5 |              8 |             FREE |   NONE|
+|               5 |              8 |             BUSY |      9|
 |               6 |              2 |             FREE |   NONE|
 +-------------------------------------------------------------+
-total memory used at 400 : 15
-total free memory at 400 : 15
+total memory used at 300 : 8
+total free memory at 300 : 92
+total available free memory at 300 : 92
 +-------------------------------------------------------------+
 +-------------------------------------------------------------+
-Memory Status at Time 500
+Memory Status at Time 501
 |partition number | partition size | partition status |  PID |
 +-------------------------------------------------------------+
 |               1 |             40 |             FREE |   NONE|
@@ -79,6 +84,7 @@ Memory Status at Time 500
 |               5 |              8 |             FREE |   NONE|
 |               6 |              2 |             FREE |   NONE|
 +-------------------------------------------------------------+
-total memory used at 500 : 0
-total free memory at 500 : 0
+total memory used at 501 : 0
+total free memory at 501 : 100
+total available free memory at 501 : 100
 +-------------------------------------------------------------+
