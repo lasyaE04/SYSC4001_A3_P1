@@ -14,13 +14,13 @@
 |               160 |  4 |     READY |   RUNNING |
 |               260 |  4 |   RUNNING |     READY |
 |               260 |  4 |     READY |   RUNNING |
-|               281 |  4 |   RUNNING |TERMINATED |
-|               281 |  6 |     READY |   RUNNING |
-|               381 |  6 |   RUNNING |     READY |
-|               381 |  6 |     READY |   RUNNING |
-|               401 |  6 |   RUNNING |TERMINATED |
-|               401 |  8 |     READY |   RUNNING |
-|               501 |  8 |   RUNNING |     READY |
-|               501 |  8 |     READY |   RUNNING |
-|               572 |  8 |   RUNNING |TERMINATED |
+|               280 |  4 |   RUNNING |TERMINATED |
+|               280 |  6 |     READY |   RUNNING |
+|               380 |  6 |   RUNNING |     READY |
+|               380 |  6 |     READY |   RUNNING |
+|               400 |  6 |   RUNNING |TERMINATED |
+|               400 |  8 |     READY |   RUNNING |
+|               500 |  8 |   RUNNING |     READY |
+|               500 |  8 |     READY |   RUNNING |
+|               570 |  8 |   RUNNING |TERMINATED |
 +------------------------------------------------+

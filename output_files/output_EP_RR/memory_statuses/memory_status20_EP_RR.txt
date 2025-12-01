@@ -74,7 +74,7 @@ total free memory at 95 : 85
 total available free memory at 95 : 85
 +-------------------------------------------------------------+
 +-------------------------------------------------------------+
-Memory Status at Time 155
+Memory Status at Time 150
 |partition number | partition size | partition status |  PID |
 +-------------------------------------------------------------+
 |               1 |             40 |             FREE |   NONE|
@@ -84,7 +84,7 @@ Memory Status at Time 155
 |               5 |              8 |             FREE |   NONE|
 |               6 |              2 |             FREE |   NONE|
 +-------------------------------------------------------------+
-total memory used at 155 : 0
-total free memory at 155 : 100
-total available free memory at 155 : 100
+total memory used at 150 : 0
+total free memory at 150 : 100
+total available free memory at 150 : 100
 +-------------------------------------------------------------+

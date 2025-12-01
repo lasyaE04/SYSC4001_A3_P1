@@ -44,7 +44,7 @@ total free memory at 150 : 98
 total available free memory at 150 : 98
 +-------------------------------------------------------------+
 +-------------------------------------------------------------+
-Memory Status at Time 301
+Memory Status at Time 300
 |partition number | partition size | partition status |  PID |
 +-------------------------------------------------------------+
 |               1 |             40 |             FREE |   NONE|
@@ -54,7 +54,7 @@ Memory Status at Time 301
 |               5 |              8 |             FREE |   NONE|
 |               6 |              2 |             FREE |   NONE|
 +-------------------------------------------------------------+
-total memory used at 301 : 0
-total free memory at 301 : 100
-total available free memory at 301 : 100
+total memory used at 300 : 0
+total free memory at 300 : 100
+total available free memory at 300 : 100
 +-------------------------------------------------------------+

@@ -131,17 +131,6 @@ std::tuple<std::string, std::string> run_simulation(std::vector<PCB> list_proces
                     execution_status += print_exec_status(current_time, process.PID, NEW, READY);
                     mem_status += print_mem_status(current_time);
 
-                    //check for preemption
-                    if(running.state == RUNNING && process.PID < running.PID){
-                        running.state = READY;
-                        ready_queue.push_back(running);
-                        execution_status += print_exec_status(current_time, running.PID, RUNNING, READY);
-                        sync_queue(job_list, running);
-                        idle_CPU(running);
-                        quantum_counter = 0;
-                        preemption = true;
-                    }
-
                 } else {
                     process.state = NEW;
                     block_queue.push_back(process);
@@ -157,18 +146,6 @@ std::tuple<std::string, std::string> run_simulation(std::vector<PCB> list_proces
                 ready_queue.push_back(*i);
                 execution_status += print_exec_status(current_time, (*i).PID, WAITING, READY);
                 sync_queue(job_list, *i);
-
-                //check for preemption
-                if(running.state == RUNNING && (*i).PID < running.PID){
-                    running.state = READY;
-                    ready_queue.push_back(running);
-                    execution_status += print_exec_status(current_time, running.PID, RUNNING, READY);
-                    sync_queue(job_list, running);
-                    idle_CPU(running);
-                    quantum_counter = 0;
-                    preemption = true;
-                }
-
                 i = wait_queue.erase(i);
             }else{
                 ++i;
@@ -184,18 +161,6 @@ std::tuple<std::string, std::string> run_simulation(std::vector<PCB> list_proces
                     job_list.push_back(*i); //Add it to the list of processes
                     execution_status += print_exec_status(current_time, (*i).PID, NEW, READY);
                     mem_status += print_mem_status(current_time);
-
-                    //check for preemption
-                    if(running.state == RUNNING && (*i).PID < running.PID){
-                        running.state = READY;
-                        ready_queue.push_back(running);
-                        execution_status += print_exec_status(current_time, running.PID, RUNNING, READY);
-                        sync_queue(job_list, running);
-                        idle_CPU(running);
-                        quantum_counter = 0;
-                        preemption = true;
-                    }
-
                     i = block_queue.erase(i);
             }else{
                 ++i;
@@ -204,7 +169,7 @@ std::tuple<std::string, std::string> run_simulation(std::vector<PCB> list_proces
 
         /////////////////////////////////////////////////////////////////
         //////////////////////////SCHEDULER//////////////////////////////
-        if(running.state == RUNNING && !preemption){
+        if(running.state == RUNNING){
             running.remaining_time--;
             quantum_counter++;
 
@@ -241,6 +206,29 @@ std::tuple<std::string, std::string> run_simulation(std::vector<PCB> list_proces
             }
             
 
+        }
+
+        //check for preemption
+        if(running.state ==RUNNING && !ready_queue.empty()){
+            EP_RR(ready_queue);
+            PCB highested_priority = ready_queue.back();
+
+            if (quantum_counter >= assigned_quantum_time){
+                preemption = true;
+            }
+
+            if(highested_priority.PID < running.PID){
+                preemption = true;
+            }
+
+            if (preemption){
+                running.state = READY;
+                ready_queue.push_back(running);
+                execution_status += print_exec_status(current_time, running.PID, RUNNING, READY);
+                sync_queue(job_list, running);
+                idle_CPU(running);
+                quantum_counter = 0;
+            }
         }
         
         if(running.state == NOT_ASSIGNED && !ready_queue.empty()){

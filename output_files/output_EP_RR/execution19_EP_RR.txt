@@ -13,7 +13,5 @@
 |               300 |  9 |     READY |   RUNNING |
 |               400 |  9 |   RUNNING |     READY |
 |               400 |  9 |     READY |   RUNNING |
-|               500 |  9 |   RUNNING |     READY |
-|               500 |  9 |     READY |   RUNNING |
-|               501 |  9 |   RUNNING |TERMINATED |
+|               500 |  9 |   RUNNING |TERMINATED |
 +------------------------------------------------+
