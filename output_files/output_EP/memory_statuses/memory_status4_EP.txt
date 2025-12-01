@@ -1,0 +1,60 @@
++-------------------------------------------------------------+
+Memory Status at Time 0
+|partition number | partition size | partition status |  PID |
++-------------------------------------------------------------+
+|               1 |             40 |             FREE |   NONE|
+|               2 |             25 |             FREE |   NONE|
+|               3 |             15 |             FREE |   NONE|
+|               4 |             10 |             FREE |   NONE|
+|               5 |              8 |             FREE |   NONE|
+|               6 |              2 |             BUSY |     10|
++-------------------------------------------------------------+
+total memory used at 0 : 2
+total free memory at 0 : 98
+total available free memory at 0 : 98
++-------------------------------------------------------------+
++-------------------------------------------------------------+
+Memory Status at Time 3
+|partition number | partition size | partition status |  PID |
++-------------------------------------------------------------+
+|               1 |             40 |             FREE |   NONE|
+|               2 |             25 |             FREE |   NONE|
+|               3 |             15 |             FREE |   NONE|
+|               4 |             10 |             FREE |   NONE|
+|               5 |              8 |             BUSY |      1|
+|               6 |              2 |             BUSY |     10|
++-------------------------------------------------------------+
+total memory used at 3 : 10
+total free memory at 3 : 90
+total available free memory at 3 : 90
++-------------------------------------------------------------+
++-------------------------------------------------------------+
+Memory Status at Time 8
+|partition number | partition size | partition status |  PID |
++-------------------------------------------------------------+
+|               1 |             40 |             FREE |   NONE|
+|               2 |             25 |             FREE |   NONE|
+|               3 |             15 |             FREE |   NONE|
+|               4 |             10 |             FREE |   NONE|
+|               5 |              8 |             FREE |   NONE|
+|               6 |              2 |             BUSY |     10|
++-------------------------------------------------------------+
+total memory used at 8 : 2
+total free memory at 8 : 98
+total available free memory at 8 : 98
++-------------------------------------------------------------+
++-------------------------------------------------------------+
+Memory Status at Time 14
+|partition number | partition size | partition status |  PID |
++-------------------------------------------------------------+
+|               1 |             40 |             FREE |   NONE|
+|               2 |             25 |             FREE |   NONE|
+|               3 |             15 |             FREE |   NONE|
+|               4 |             10 |             FREE |   NONE|
+|               5 |              8 |             FREE |   NONE|
+|               6 |              2 |             FREE |   NONE|
++-------------------------------------------------------------+
+total memory used at 14 : 0
+total free memory at 14 : 100
+total available free memory at 14 : 100
++-------------------------------------------------------------+
