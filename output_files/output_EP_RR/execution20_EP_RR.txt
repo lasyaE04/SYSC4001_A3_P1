@@ -18,27 +18,27 @@
 |                45 |  2 |   RUNNING |   WAITING |
 |                45 |  3 |     READY |   RUNNING |
 |                50 |  1 |   WAITING |     READY |
-|                50 |  3 |   RUNNING |     READY |
+|                50 |  3 |   RUNNING |   WAITING |
 |                50 |  1 |     READY |   RUNNING |
 |                60 |  2 |   WAITING |     READY |
 |                60 |  1 |   RUNNING |   WAITING |
 |                60 |  2 |     READY |   RUNNING |
+|                65 |  3 |   WAITING |     READY |
 |                70 |  2 |   RUNNING |   WAITING |
 |                70 |  3 |     READY |   RUNNING |
-|                72 |  3 |   RUNNING |   WAITING |
 |                75 |  1 |   WAITING |     READY |
+|                75 |  3 |   RUNNING |     READY |
 |                75 |  1 |     READY |   RUNNING |
 |                85 |  2 |   WAITING |     READY |
 |                85 |  1 |   RUNNING |TERMINATED |
 |                85 |  2 |     READY |   RUNNING |
-|                87 |  3 |   WAITING |     READY |
 |                95 |  2 |   RUNNING |TERMINATED |
 |                95 |  3 |     READY |   RUNNING |
-|               105 |  3 |   RUNNING |   WAITING |
-|               120 |  3 |   WAITING |     READY |
-|               120 |  3 |     READY |   RUNNING |
-|               130 |  3 |   RUNNING |   WAITING |
-|               145 |  3 |   WAITING |     READY |
-|               145 |  3 |     READY |   RUNNING |
-|               155 |  3 |   RUNNING |TERMINATED |
+|               100 |  3 |   RUNNING |   WAITING |
+|               115 |  3 |   WAITING |     READY |
+|               115 |  3 |     READY |   RUNNING |
+|               125 |  3 |   RUNNING |   WAITING |
+|               140 |  3 |   WAITING |     READY |
+|               140 |  3 |     READY |   RUNNING |
+|               150 |  3 |   RUNNING |TERMINATED |
 +------------------------------------------------+

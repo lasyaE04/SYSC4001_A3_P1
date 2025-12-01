@@ -74,7 +74,7 @@ total free memory at 160 : 67
 total available free memory at 160 : 67
 +-------------------------------------------------------------+
 +-------------------------------------------------------------+
-Memory Status at Time 281
+Memory Status at Time 280
 |partition number | partition size | partition status |  PID |
 +-------------------------------------------------------------+
 |               1 |             40 |             FREE |   NONE|
@@ -84,12 +84,12 @@ Memory Status at Time 281
 |               5 |              8 |             BUSY |      8|
 |               6 |              2 |             FREE |   NONE|
 +-------------------------------------------------------------+
-total memory used at 281 : 23
-total free memory at 281 : 77
-total available free memory at 281 : 77
+total memory used at 280 : 23
+total free memory at 280 : 77
+total available free memory at 280 : 77
 +-------------------------------------------------------------+
 +-------------------------------------------------------------+
-Memory Status at Time 401
+Memory Status at Time 400
 |partition number | partition size | partition status |  PID |
 +-------------------------------------------------------------+
 |               1 |             40 |             FREE |   NONE|
@@ -99,12 +99,12 @@ Memory Status at Time 401
 |               5 |              8 |             BUSY |      8|
 |               6 |              2 |             FREE |   NONE|
 +-------------------------------------------------------------+
-total memory used at 401 : 8
-total free memory at 401 : 92
-total available free memory at 401 : 92
+total memory used at 400 : 8
+total free memory at 400 : 92
+total available free memory at 400 : 92
 +-------------------------------------------------------------+
 +-------------------------------------------------------------+
-Memory Status at Time 572
+Memory Status at Time 570
 |partition number | partition size | partition status |  PID |
 +-------------------------------------------------------------+
 |               1 |             40 |             FREE |   NONE|
@@ -114,7 +114,7 @@ Memory Status at Time 572
 |               5 |              8 |             FREE |   NONE|
 |               6 |              2 |             FREE |   NONE|
 +-------------------------------------------------------------+
-total memory used at 572 : 0
-total free memory at 572 : 100
-total available free memory at 572 : 100
+total memory used at 570 : 0
+total free memory at 570 : 100
+total available free memory at 570 : 100
 +-------------------------------------------------------------+

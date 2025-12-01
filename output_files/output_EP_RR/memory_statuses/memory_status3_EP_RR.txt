@@ -44,7 +44,7 @@ total free memory at 8 : 98
 total available free memory at 8 : 98
 +-------------------------------------------------------------+
 +-------------------------------------------------------------+
-Memory Status at Time 16
+Memory Status at Time 15
 |partition number | partition size | partition status |  PID |
 +-------------------------------------------------------------+
 |               1 |             40 |             FREE |   NONE|
@@ -54,7 +54,7 @@ Memory Status at Time 16
 |               5 |              8 |             FREE |   NONE|
 |               6 |              2 |             FREE |   NONE|
 +-------------------------------------------------------------+
-total memory used at 16 : 0
-total free memory at 16 : 100
-total available free memory at 16 : 100
+total memory used at 15 : 0
+total free memory at 15 : 100
+total available free memory at 15 : 100
 +-------------------------------------------------------------+

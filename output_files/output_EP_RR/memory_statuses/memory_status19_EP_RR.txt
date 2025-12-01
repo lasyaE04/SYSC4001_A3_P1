@@ -74,7 +74,7 @@ total free memory at 300 : 92
 total available free memory at 300 : 92
 +-------------------------------------------------------------+
 +-------------------------------------------------------------+
-Memory Status at Time 501
+Memory Status at Time 500
 |partition number | partition size | partition status |  PID |
 +-------------------------------------------------------------+
 |               1 |             40 |             FREE |   NONE|
@@ -84,7 +84,7 @@ Memory Status at Time 501
 |               5 |              8 |             FREE |   NONE|
 |               6 |              2 |             FREE |   NONE|
 +-------------------------------------------------------------+
-total memory used at 501 : 0
-total free memory at 501 : 100
-total available free memory at 501 : 100
+total memory used at 500 : 0
+total free memory at 500 : 100
+total available free memory at 500 : 100
 +-------------------------------------------------------------+

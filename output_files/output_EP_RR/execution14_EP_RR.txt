@@ -11,8 +11,8 @@
 |                12 |  3 |     READY |   RUNNING |
 |                22 |  3 |   RUNNING |TERMINATED |
 |                22 |  5 |     READY |   RUNNING |
-|                31 |  5 |   RUNNING |   WAITING |
-|                33 |  5 |   WAITING |     READY |
-|                33 |  5 |     READY |   RUNNING |
-|                43 |  5 |   RUNNING |TERMINATED |
+|                30 |  5 |   RUNNING |   WAITING |
+|                32 |  5 |   WAITING |     READY |
+|                32 |  5 |     READY |   RUNNING |
+|                42 |  5 |   RUNNING |TERMINATED |
 +------------------------------------------------+
